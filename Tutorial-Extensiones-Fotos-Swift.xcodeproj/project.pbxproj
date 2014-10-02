@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2E903B19DA87FF00875E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E903A19DA87FF00875E86 /* AppDelegate.swift */; };
+		5B2E903D19DA87FF00875E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E903C19DA87FF00875E86 /* ViewController.swift */; };
+		5B2E904019DA87FF00875E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E903E19DA87FF00875E86 /* Main.storyboard */; };
+		5B2E904219DA87FF00875E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E904119DA87FF00875E86 /* Images.xcassets */; };
+		5B2E904519DA87FF00875E86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E904319DA87FF00875E86 /* LaunchScreen.xib */; };
+		5B2E905119DA880000875E86 /* Tutorial_Extensiones_Fotos_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E905019DA880000875E86 /* Tutorial_Extensiones_Fotos_SwiftTests.swift */; };
+		5B2E906119DB5DAA00875E86 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E906019DB5DAA00875E86 /* PhotosUI.framework */; };
+		5B2E906319DB5DAA00875E86 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E906219DB5DAA00875E86 /* Photos.framework */; };
+		5B2E906819DB5DAA00875E86 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E906719DB5DAA00875E86 /* PhotoEditingViewController.swift */; };
+		5B2E906A19DB5DAA00875E86 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E906919DB5DAA00875E86 /* MainInterface.storyboard */; };
+		5B2E906D19DB5DAA00875E86 /* EfectoPiOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5B2E905E19DB5DAA00875E86 /* EfectoPiOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B2E907519DD3B0B00875E86 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E907419DD3B0B00875E86 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2E904B19DA880000875E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E902D19DA87FF00875E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E903419DA87FF00875E86;
+			remoteInfo = "Tutorial-Extensiones-Fotos-Swift";
+		};
+		5B2E906B19DB5DAA00875E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E902D19DA87FF00875E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E905D19DB5DAA00875E86;
+			remoteInfo = EfectoPiOS;
+		};
+		5B2E906E19DB5DAA00875E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E902D19DA87FF00875E86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E905D19DB5DAA00875E86;
+			remoteInfo = EfectoPiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B2E907319DB5DAA00875E86 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B2E906D19DB5DAA00875E86 /* EfectoPiOS.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B2E903519DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial-Extensiones-Fotos-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E903919DA87FF00875E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2E903A19DA87FF00875E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B2E903C19DA87FF00875E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B2E903F19DA87FF00875E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B2E904119DA87FF00875E86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B2E904419DA87FF00875E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B2E904A19DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-Extensiones-Fotos-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E904F19DA880000875E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2E905019DA880000875E86 /* Tutorial_Extensiones_Fotos_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Extensiones_Fotos_SwiftTests.swift; sourceTree = "<group>"; };
+		5B2E905E19DB5DAA00875E86 /* EfectoPiOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EfectoPiOS.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E906019DB5DAA00875E86 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		5B2E906219DB5DAA00875E86 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5B2E906619DB5DAA00875E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2E906719DB5DAA00875E86 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		5B2E906919DB5DAA00875E86 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		5B2E907419DD3B0B00875E86 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2E903219DA87FF00875E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E904719DA880000875E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E905B19DB5DAA00875E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E906119DB5DAA00875E86 /* PhotosUI.framework in Frameworks */,
+				5B2E906319DB5DAA00875E86 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2E902C19DA87FF00875E86 = {
+			isa = PBXGroup;
+			children = (
+				5B2E903719DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift */,
+				5B2E904D19DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests */,
+				5B2E906419DB5DAA00875E86 /* EfectoPiOS */,
+				5B2E905F19DB5DAA00875E86 /* Frameworks */,
+				5B2E903619DA87FF00875E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2E903619DA87FF00875E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E903519DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift.app */,
+				5B2E904A19DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests.xctest */,
+				5B2E905E19DB5DAA00875E86 /* EfectoPiOS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2E903719DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E907419DD3B0B00875E86 /* logo.png */,
+				5B2E903A19DA87FF00875E86 /* AppDelegate.swift */,
+				5B2E903C19DA87FF00875E86 /* ViewController.swift */,
+				5B2E903E19DA87FF00875E86 /* Main.storyboard */,
+				5B2E904119DA87FF00875E86 /* Images.xcassets */,
+				5B2E904319DA87FF00875E86 /* LaunchScreen.xib */,
+				5B2E903819DA87FF00875E86 /* Supporting Files */,
+			);
+			path = "Tutorial-Extensiones-Fotos-Swift";
+			sourceTree = "<group>";
+		};
+		5B2E903819DA87FF00875E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E903919DA87FF00875E86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B2E904D19DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E905019DA880000875E86 /* Tutorial_Extensiones_Fotos_SwiftTests.swift */,
+				5B2E904E19DA880000875E86 /* Supporting Files */,
+			);
+			path = "Tutorial-Extensiones-Fotos-SwiftTests";
+			sourceTree = "<group>";
+		};
+		5B2E904E19DA880000875E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E904F19DA880000875E86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B2E905F19DB5DAA00875E86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E906019DB5DAA00875E86 /* PhotosUI.framework */,
+				5B2E906219DB5DAA00875E86 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B2E906419DB5DAA00875E86 /* EfectoPiOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E906719DB5DAA00875E86 /* PhotoEditingViewController.swift */,
+				5B2E906919DB5DAA00875E86 /* MainInterface.storyboard */,
+				5B2E906519DB5DAA00875E86 /* Supporting Files */,
+			);
+			path = EfectoPiOS;
+			sourceTree = "<group>";
+		};
+		5B2E906519DB5DAA00875E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E906619DB5DAA00875E86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2E903419DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E905419DA880000875E86 /* Build configuration list for PBXNativeTarget "Tutorial-Extensiones-Fotos-Swift" */;
+			buildPhases = (
+				5B2E903119DA87FF00875E86 /* Sources */,
+				5B2E903219DA87FF00875E86 /* Frameworks */,
+				5B2E903319DA87FF00875E86 /* Resources */,
+				5B2E907319DB5DAA00875E86 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E906C19DB5DAA00875E86 /* PBXTargetDependency */,
+				5B2E906F19DB5DAA00875E86 /* PBXTargetDependency */,
+			);
+			name = "Tutorial-Extensiones-Fotos-Swift";
+			productName = "Tutorial-Extensiones-Fotos-Swift";
+			productReference = 5B2E903519DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B2E904919DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E905719DA880000875E86 /* Build configuration list for PBXNativeTarget "Tutorial-Extensiones-Fotos-SwiftTests" */;
+			buildPhases = (
+				5B2E904619DA880000875E86 /* Sources */,
+				5B2E904719DA880000875E86 /* Frameworks */,
+				5B2E904819DA880000875E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E904C19DA880000875E86 /* PBXTargetDependency */,
+			);
+			name = "Tutorial-Extensiones-Fotos-SwiftTests";
+			productName = "Tutorial-Extensiones-Fotos-SwiftTests";
+			productReference = 5B2E904A19DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B2E905D19DB5DAA00875E86 /* EfectoPiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E907019DB5DAA00875E86 /* Build configuration list for PBXNativeTarget "EfectoPiOS" */;
+			buildPhases = (
+				5B2E905A19DB5DAA00875E86 /* Sources */,
+				5B2E905B19DB5DAA00875E86 /* Frameworks */,
+				5B2E905C19DB5DAA00875E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EfectoPiOS;
+			productName = EfectoPiOS;
+			productReference = 5B2E905E19DB5DAA00875E86 /* EfectoPiOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2E902D19DA87FF00875E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Programadores-iOS.net";
+				TargetAttributes = {
+					5B2E903419DA87FF00875E86 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5B2E904919DA880000875E86 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5B2E903419DA87FF00875E86;
+					};
+					5B2E905D19DB5DAA00875E86 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B2E903019DA87FF00875E86 /* Build configuration list for PBXProject "Tutorial-Extensiones-Fotos-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B2E902C19DA87FF00875E86;
+			productRefGroup = 5B2E903619DA87FF00875E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2E903419DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift */,
+				5B2E904919DA880000875E86 /* Tutorial-Extensiones-Fotos-SwiftTests */,
+				5B2E905D19DB5DAA00875E86 /* EfectoPiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2E903319DA87FF00875E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E907519DD3B0B00875E86 /* logo.png in Resources */,
+				5B2E904019DA87FF00875E86 /* Main.storyboard in Resources */,
+				5B2E904519DA87FF00875E86 /* LaunchScreen.xib in Resources */,
+				5B2E904219DA87FF00875E86 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E904819DA880000875E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E905C19DB5DAA00875E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E906A19DB5DAA00875E86 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2E903119DA87FF00875E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E903D19DA87FF00875E86 /* ViewController.swift in Sources */,
+				5B2E903B19DA87FF00875E86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E904619DA880000875E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E905119DA880000875E86 /* Tutorial_Extensiones_Fotos_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E905A19DB5DAA00875E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E906819DB5DAA00875E86 /* PhotoEditingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2E904C19DA880000875E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E903419DA87FF00875E86 /* Tutorial-Extensiones-Fotos-Swift */;
+			targetProxy = 5B2E904B19DA880000875E86 /* PBXContainerItemProxy */;
+		};
+		5B2E906C19DB5DAA00875E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E905D19DB5DAA00875E86 /* EfectoPiOS */;
+			targetProxy = 5B2E906B19DB5DAA00875E86 /* PBXContainerItemProxy */;
+		};
+		5B2E906F19DB5DAA00875E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E905D19DB5DAA00875E86 /* EfectoPiOS */;
+			targetProxy = 5B2E906E19DB5DAA00875E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B2E903E19DA87FF00875E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2E903F19DA87FF00875E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B2E904319DA87FF00875E86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2E904419DA87FF00875E86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2E905219DA880000875E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B2E905319DA880000875E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2E905519DA880000875E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tutorial-Extensiones-Fotos-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B2E905619DA880000875E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tutorial-Extensiones-Fotos-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B2E905819DA880000875E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tutorial-Extensiones-Fotos-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial-Extensiones-Fotos-Swift.app/Tutorial-Extensiones-Fotos-Swift";
+			};
+			name = Debug;
+		};
+		5B2E905919DA880000875E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tutorial-Extensiones-Fotos-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial-Extensiones-Fotos-Swift.app/Tutorial-Extensiones-Fotos-Swift";
+			};
+			name = Release;
+		};
+		5B2E907119DB5DAA00875E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EfectoPiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B2E907219DB5DAA00875E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EfectoPiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2E903019DA87FF00875E86 /* Build configuration list for PBXProject "Tutorial-Extensiones-Fotos-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E905219DA880000875E86 /* Debug */,
+				5B2E905319DA880000875E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E905419DA880000875E86 /* Build configuration list for PBXNativeTarget "Tutorial-Extensiones-Fotos-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E905519DA880000875E86 /* Debug */,
+				5B2E905619DA880000875E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2E905719DA880000875E86 /* Build configuration list for PBXNativeTarget "Tutorial-Extensiones-Fotos-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E905819DA880000875E86 /* Debug */,
+				5B2E905919DA880000875E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2E907019DB5DAA00875E86 /* Build configuration list for PBXNativeTarget "EfectoPiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E907119DB5DAA00875E86 /* Debug */,
+				5B2E907219DB5DAA00875E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2E902D19DA87FF00875E86 /* Project object */;
+}
